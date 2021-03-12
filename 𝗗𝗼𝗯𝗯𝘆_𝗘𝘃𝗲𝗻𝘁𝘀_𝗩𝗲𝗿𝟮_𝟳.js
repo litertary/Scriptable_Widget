@@ -312,7 +312,7 @@ if (!config.runsInWidget && !TEST_MODE) {
     queryEndTime.setHours(23, 59, 59, 0)
     
     
-    const reminders = await Reminder.incompleteDueBetween(new Date(), endDate)
+    const reminders = await Reminder.incompleteDueBetween(queryStartTime, endDate)
      
 //     const reminders = await Reminder.incompleteDueBetween(queryStartTime, queryEndTime)
     for (const reminder of reminders) {
