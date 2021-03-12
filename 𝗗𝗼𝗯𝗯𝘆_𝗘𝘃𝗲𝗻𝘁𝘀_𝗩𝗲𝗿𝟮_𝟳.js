@@ -161,6 +161,11 @@ const NUM_ITEMS_TO_SHOW = 4
 // 📅📅🕔 이벤트 기간
 const period = 30; // 이벤트 불러올 기간(n일 후)
 
+// 📅🔖✅ 완료하지 못한 리마인더 보이고 싶은 기간
+// 숫자 값에 따라 며칠 전까지 보이기 설정 
+// n일 전 리마인더 보이기 
+const pastReminder = 0
+
 // 👍🏻👍🏻✅ 모든 일정 끝났을 때 하단에 나오는 텍스트
 const NO_ITEMS_MESSAGE = "🧦도비 이즈 프리" 
 
@@ -298,7 +303,7 @@ if (!config.runsInWidget && !TEST_MODE) {
     // Find today's reminders that are part of the reminder list
     // NOTE: all-day reminders have their time set to 00:00 of the same day, but aren't returned with incompleteDueToday...
     let queryStartTime = new Date(NOW)
-    queryStartTime.setDate(queryStartTime.getDate() - 1)
+    queryStartTime.setDate(queryStartTime.getDate() - pastReminder)
     queryStartTime.setHours(23, 59, 59, 0)
     let queryEndTime = new Date(NOW)
     queryEndTime.setHours(23, 59, 59, 0)
