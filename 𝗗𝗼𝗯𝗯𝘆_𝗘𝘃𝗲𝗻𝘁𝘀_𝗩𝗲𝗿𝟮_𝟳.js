@@ -162,9 +162,12 @@ const NUM_ITEMS_TO_SHOW = 4
 const period = 30; // 이벤트 불러올 기간(n일 후)
 
 // 📅🔖✅ 완료하지 못한 리마인더 보이고 싶은 기간
+// 기본 설정 1 
+// 오늘이 9월 11일이면, 1로 설정했을 때 
+// 9월 10일 23시 59분으로 설정 
 // 숫자 값에 따라 며칠 전까지 보이기 설정 
-// n일 전 리마인더 보이기 
-const pastReminder = 0
+// n일 전 리마인더 보이기
+const pastReminder = 1
 
 // 👍🏻👍🏻✅ 모든 일정 끝났을 때 하단에 나오는 텍스트
 const NO_ITEMS_MESSAGE = "🧦도비 이즈 프리" 
