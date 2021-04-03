@@ -33,18 +33,22 @@
 
   2) "divideEvents" 
   왼쪽에 일정, 오른쪽에 리마인더
+  ![image](https://user-images.githubusercontent.com/71208149/113476851-0fcebe00-94b9-11eb-806d-387ec329938a.png)
 
   3) "leftPast"
   왼쪽에 지나간 리마인더 표기
   오른쪽에 일정 및 리마인더
+  ![image](https://user-images.githubusercontent.com/71208149/113476862-1c531680-94b9-11eb-9919-f9d741380a9c.png)
 
   4) "rightPast"
   오른쪽에 지나간 리마인더 표기
   왼쪽에 일정 및 리마인더
+  ![image](https://user-images.githubusercontent.com/71208149/113476868-22e18e00-94b9-11eb-938d-4fe41584b7a8.png)
 
   5) "bothReminders"
   양쪽에 리마인더 표기 
   왼쪽, 오른쪽 원하는 리마인더 지정 가능
+  ![image](https://user-images.githubusercontent.com/71208149/113476879-2d9c2300-94b9-11eb-98ae-dafd987b5c3b.png)
 
 - 레프트 모드 : 날짜가 왼쪽에 있는 모드
 - 롸이트 모드 : 날짜가 오른쪽에 있는 모드
